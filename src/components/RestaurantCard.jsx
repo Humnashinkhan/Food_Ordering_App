@@ -29,8 +29,8 @@ const RestaurantCard = ({
         {area}
     </h5>
        <span 
-       className="flex gap-5 px-2 mt-1 font-bold text-[#353535] text-[13px]">
-        <h4>{avgRating}</h4>
+       className="flex gap-5 px-2 pt-3 font-bold text-[#353535] text-[13px]">
+        <h4 className="bg-[#00ad1d] text-white p-1 px-3 rounded-lg">{avgRating}</h4>
         <h4>{lastMileTravelString}</h4>
         <h4>{costForTwoString}</h4>
        </span>

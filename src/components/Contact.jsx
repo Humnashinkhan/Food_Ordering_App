@@ -10,7 +10,8 @@ const Contact = () => {
          />
       </div>
       <form>
-      <div className="grid gap-5 pt-32 mr-64">
+      <div className="grid gap-5 pt-20 mr-64">
+         <h1 className="text-[#545454] text-center font-bold text-[30px]">Contact Us</h1>
         <input
            className="md:w-[30rem] p-2 border-2 border-gray-200 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-200" 
            type="text" 
@@ -33,7 +34,7 @@ const Contact = () => {
            required
            />
           <input 
-          className="bg-[#1bb1dc] text-white rounded-md hover:bg-[#1993dc] w-40 ml-36 py-2"
+          className="bg-[#d97919] text-white rounded-md hover:bg-[#9c5813] w-40 ml-36 py-2"
           type="submit"
           value="Send Message"
           />

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className="flex justify-between">
+    <div className="h-[500px] flex justify-between">
       <div className="ml-72 pt-16">
         <img 
          alt="img"

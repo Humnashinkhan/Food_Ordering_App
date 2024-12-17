@@ -17,7 +17,7 @@ const [restaurants, setRestaurants] = useState (restaurantList);
     <>
     <div className="">
         <input
-        className="border-2 w-[450px] h-9 mt-8 ml-96 outline-[#cead8d] p-3" 
+        className="border-2 md:w-[450px] h-9 mt-8 ml-10 md:ml-96 outline-[#cead8d] p-3" 
         type="text" 
         placeholder="Search a restaurant you want.." 
         value={searchText}
@@ -34,7 +34,7 @@ const [restaurants, setRestaurants] = useState (restaurantList);
         >
          Search</button>
         </div>
-        <div className="h-[160vh] flex flex-wrap ml-8">
+        <div className="md:h-[160vh] flex flex-wrap ml-8">
         {restaurants.map((restaurant) => {
           return (
          <RestaurantCard  key={restaurant.data.id} {...restaurant.data}/>
